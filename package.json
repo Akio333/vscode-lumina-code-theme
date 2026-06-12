@@ -1,0 +1,37 @@
+{
+  "name": "lumina-code",
+  "displayName": "Lumina Code",
+  "description": "A minimal, premium VS Code theme family inspired by Poimandres, with colors inferred from the Full Stack AEM Portfolio designs and no italics.",
+  "version": "1.0.0",
+  "publisher": "akio",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Lumina Code (Standard)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/lumina-code-color-theme.json"
+      },
+      {
+        "label": "Lumina Code (Deep)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/lumina-code-deep-color-theme.json"
+      },
+      {
+        "label": "Lumina Code (Lighter)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/lumina-code-lighter-color-theme.json"
+      },
+      {
+        "label": "Lumina Code Light",
+        "uiTheme": "vs",
+        "path": "./themes/lumina-code-light-color-theme.json"
+      }
+    ]
+  }
+}
