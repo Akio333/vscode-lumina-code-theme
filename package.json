@@ -16,6 +16,13 @@
   "categories": [
     "Themes"
   ],
+  "scripts": {
+    "validate": "node scripts/validate.js"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^3.2.1",
+    "ovsx": "^0.9.3"
+  },
   "contributes": {
     "themes": [
       {
