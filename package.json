@@ -5,6 +5,11 @@
   "version": "1.0.0",
   "license": "MIT",
   "publisher": "akio",
+  "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Akio333/vscode-lumina-code-theme"
+  },
   "engines": {
     "vscode": "^1.60.0"
   },
