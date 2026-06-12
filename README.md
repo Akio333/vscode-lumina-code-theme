@@ -44,3 +44,7 @@ Designed specifically for developers who prefer clean and stable typography, no 
 3. To install permanently, copy this workspace directory to your local VS Code extensions folder:
    - macOS/Linux: `~/.vscode/extensions/`
    - Windows: `%USERPROFILE%\.vscode\extensions\`
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
