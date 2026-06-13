@@ -17,7 +17,8 @@
     "Themes"
   ],
   "scripts": {
-    "validate": "node scripts/validate.js"
+    "validate": "node scripts/validate.js",
+    "package": "npm run validate && vsce package"
   },
   "devDependencies": {
     "@vscode/vsce": "^3.2.1",
