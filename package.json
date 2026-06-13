@@ -2,7 +2,7 @@
   "name": "lumina-code",
   "displayName": "Lumina Code",
   "description": "A minimal, premium VS Code theme family inspired by Poimandres, with colors inferred from the Full Stack AEM Portfolio designs and no italics.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "publisher": "Akio333",
   "icon": "icon.png",
