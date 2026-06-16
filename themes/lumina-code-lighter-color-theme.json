@@ -720,13 +720,20 @@
     },
     {
       "scope": [
+        "string"
+      ],
+      "settings": {
+        "foreground": "#62fae3"
+      }
+    },
+    {
+      "scope": [
         "constant.numeric",
         "support.constant",
         "constant.character",
         "constant.escape",
         "keyword.other.unit",
         "keyword.other",
-        "string",
         "constant.language",
         "constant.other.symbol",
         "constant.other.key",
