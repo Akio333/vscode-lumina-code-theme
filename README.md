@@ -1,6 +1,6 @@
 # Lumina Code VS Code Theme Family
 
-Lumina Code is a minimal, premium theme family for Visual Studio Code, presenting a curated palette of vibrant lavenders, teals, and soft periwinkle grays designed for high readability and visual comfort.
+Lumina Code is a minimal, premium theme family for Visual Studio Code. It keeps the Lumina palette's lavender, teal, and periwinkle character, but uses calmer dark surfaces and restrained accents for comfortable long coding sessions.
 
 Additionally, this theme comes with **no italic styles**, providing a consistent, clean, and highly readable look.
 
@@ -8,28 +8,28 @@ Additionally, this theme comes with **no italic styles**, providing a consistent
 
 Lumina Code provides four distinct variants to suit your workspace preferences:
 
-1. **Lumina Code (Standard)**: The standard dark theme with a premium deep navy background (`#0b1326`).
-2. **Lumina Code (Deep)**: A deeper dark theme featuring a midnight navy-black background (`#060e20`) for maximum contrast and coding comfort.
-3. **Lumina Code (Lighter)**: A softer dark theme with a lighter slate-blue background (`#131b2e`) to reduce eye strain.
-4. **Lumina Code Light**: A premium light theme with a clean, light periwinkle background (`#f8f9ff`) and dark navy text.
+1. **Lumina Code (Standard)**: A balanced blue-black workspace (`#1b1e28`).
+2. **Lumina Code (Deep)**: A quieter, deeper workspace (`#151821`).
+3. **Lumina Code (Lighter)**: A soft slate workspace (`#222634`) for brighter surroundings.
+4. **Lumina Code Light**: A low-glare warm-periwinkle workspace (`#f5f4f8`).
 
 ## Palette Details
 
 The theme features the following color mappings:
 
 ### Dark Mappings
-- **Keywords / Control Flow**: Vibrant Lavender (`#ddb7ff`)
-- **Functions & Classes**: Vibrant Teal-Cyan (`#44e2cd`)
-- **Strings**: Bright Cyan (`#62fae3`)
-- **Errors**: Coral (`#ffb4ab`)
-- **Operators / Types**: Lavender-Blue (`#c0c1ff`)
+- **Keywords / Control Flow**: Soft Lavender (`#c9b8e8`)
+- **Functions & Classes**: Muted Teal (`#89c8c0`)
+- **Strings**: Gentle Mint (`#9dcdc3`)
+- **Errors**: Soft Coral (`#d98b85`)
+- **Operators / Types**: Periwinkle (`#aeb5d8`)
 
 ### Light Mappings
-- **Keywords / Control Flow**: Deep Purple (`#6900b3`)
-- **Functions & Classes**: Deep Teal (`#005047`)
-- **Strings**: Midnight Teal (`#003731`)
-- **Errors**: Dark Red (`#ba1a1a`)
-- **Operators / Types**: Royal Blue (`#2f2ebe`)
+- **Keywords / Control Flow**: Muted Purple (`#704f9a`)
+- **Functions & Classes**: Balanced Teal (`#316c68`)
+- **Strings**: Deep Teal (`#285451`)
+- **Errors**: Muted Red (`#b55d5a`)
+- **Operators / Types**: Slate Indigo (`#48465f`)
 
 ## No Italics
 
