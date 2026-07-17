@@ -1,6 +1,8 @@
 # Lumina Code VS Code Theme Family
 
-Lumina Code is a minimal, premium theme family for Visual Studio Code. It keeps the Lumina palette's lavender, teal, and periwinkle character, but uses calmer dark surfaces and restrained accents for comfortable long coding sessions.
+Lumina Code is a minimal, premium theme family for Visual Studio Code with deep navy surfaces and a balanced palette of softened violet, teal, mint, indigo, blue-gray, and coral accents. It is designed for clear semantic hierarchy, comfortable contrast, and reduced visual fatigue during long coding sessions.
+
+High-chroma accents are restrained and reserved for meaningful syntax and state changes, while neutral code remains calm and readable. The result is a focused workspace that stays expressive without producing distracting neon glare.
 
 Additionally, this theme comes with **no italic styles**, providing a consistent, clean, and highly readable look.
 
@@ -8,28 +10,32 @@ Additionally, this theme comes with **no italic styles**, providing a consistent
 
 Lumina Code provides four distinct variants to suit your workspace preferences:
 
-1. **Lumina Code (Standard)**: A balanced blue-black workspace (`#1b1e28`).
-2. **Lumina Code (Deep)**: A quieter, deeper workspace (`#151821`).
-3. **Lumina Code (Lighter)**: A soft slate workspace (`#222634`) for brighter surroundings.
-4. **Lumina Code Light**: A low-glare warm-periwinkle workspace (`#f5f4f8`).
+1. **Lumina Code (Standard)**: The balanced deep-space surface (`#0b1326`).
+2. **Lumina Code (Deep)**: The lowest, quietest surface tier (`#060e20`).
+3. **Lumina Code (Lighter)**: A raised navy surface (`#171f33`) for brighter surroundings.
+4. **Lumina Code Light**: A low-glare violet-slate workspace (`#f6f4f9`).
 
 ## Palette Details
 
 The theme features the following color mappings:
 
 ### Dark Mappings
-- **Keywords / Control Flow**: Soft Lavender (`#c9b8e8`)
-- **Functions & Classes**: Muted Teal (`#89c8c0`)
-- **Strings**: Gentle Mint (`#9dcdc3`)
-- **Errors**: Soft Coral (`#d98b85`)
-- **Operators / Types**: Periwinkle (`#aeb5d8`)
+
+- **Default code**: Soft blue-gray (`#aeb9d2`)
+- **Keywords / Control Flow**: Eye-softened violet (`#c6a5e3`)
+- **Functions / Imports**: Technical teal (`#72c7bc`)
+- **Strings / Regular Expressions**: Gentle mint (`#85c9bd`)
+- **Types / Operators**: Receding indigo (`#98a4d6`)
+- **Errors / Destructive Semantics**: Soft coral (`#d98986`)
 
 ### Light Mappings
-- **Keywords / Control Flow**: Muted Purple (`#704f9a`)
-- **Functions & Classes**: Balanced Teal (`#316c68`)
-- **Strings**: Deep Teal (`#285451`)
-- **Errors**: Muted Red (`#b55d5a`)
-- **Operators / Types**: Slate Indigo (`#48465f`)
+
+- **Keywords / Control Flow**: Muted purple (`#78519c`)
+- **Functions / Strings**: Balanced teal (`#26766d`)
+- **Errors**: Muted coral (`#ad5c62`)
+- **Operators / Types**: Slate indigo (`#4e527d`)
+
+Semantic highlighting is enabled so functions, types, properties, strings, numbers, and decorators keep the same hierarchy across languages that support semantic tokens.
 
 ## No Italics
 
