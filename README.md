@@ -12,30 +12,30 @@ Lumina Code provides four distinct variants to suit your workspace preferences:
 
 1. **Lumina Code (Standard)**: The balanced deep-space surface (`#0b1326`).
 2. **Lumina Code (Deep)**: The lowest, quietest surface tier (`#060e20`).
-3. **Lumina Code (Lighter)**: A raised navy surface (`#171f33`) for brighter surroundings.
+3. **Lumina Code (Dim)**: A raised navy surface (`#171f33`) for brighter surroundings. Formerly named "Lighter"; existing settings keep working.
 4. **Lumina Code Light**: A low-glare violet-slate workspace (`#f6f4f9`).
 
 ## Palette Details
 
-The theme features the following color mappings:
+Each hue has one job, so a glance at the color tells you what a token is.
 
-### Dark Mappings
+| Role | Dark | Light |
+|---|---|---|
+| Default code, punctuation | `#aeb9d2` | `#45506a` |
+| Variables, parameters, properties | `#dae2fd` | `#303244` |
+| Keywords and storage (`if`, `return`, `const`, `import`) | `#c6a5e3` | `#78519c` |
+| Function and method declarations | `#aeb0e8` | `#3d63a6` |
+| Function calls | `#dae2fd` at 80% | `#303244` at 80% |
+| Types, classes, interfaces | `#aeb9d2` at 75% | `#5d6880` |
+| Strings, numbers, booleans, regular expressions | `#85c9bd` | `#26766d` |
+| Built-ins, `this`, tags, decorators, links | `#72c7bc` | `#1d6a86` |
+| Operators, attributes | `#98a4d6` | `#4e527d` |
+| `null`, `undefined`, errors, destructive keywords | `#d98986` | `#a5525a` |
+| Comments | `#7b86a0` at 70% | `#6c778e` |
 
-- **Default code**: Soft blue-gray (`#aeb9d2`)
-- **Keywords / Control Flow**: Eye-softened violet (`#c6a5e3`)
-- **Functions / Imports**: Technical teal (`#72c7bc`)
-- **Strings / Regular Expressions**: Gentle mint (`#85c9bd`)
-- **Types / Operators**: Receding indigo (`#98a4d6`)
-- **Errors / Destructive Semantics**: Soft coral (`#d98986`)
+Source control and the terminal follow the same mapping: added and green are mint, modified and blue are lavender, deleted and red are coral.
 
-### Light Mappings
-
-- **Keywords / Control Flow**: Muted purple (`#78519c`)
-- **Functions / Strings**: Balanced teal (`#26766d`)
-- **Errors**: Muted coral (`#ad5c62`)
-- **Operators / Types**: Slate indigo (`#4e527d`)
-
-Semantic highlighting is enabled so functions, types, properties, strings, numbers, and decorators keep the same hierarchy across languages that support semantic tokens.
+Semantic highlighting is enabled and uses the same colors as the TextMate rules, so tokens don't change color once a language server loads.
 
 ## No Italics
 
@@ -74,6 +74,18 @@ If you prefer to build the extension yourself:
    - In VS Code, open the Extensions sidebar (`Cmd+Shift+X` or `Ctrl+Shift+X`).
    - Click the `...` menu button in the top-right corner of the sidebar.
    - Select **Install from VSIX...** and select the built `lumina-code-*.vsix` file.
+
+## Editing the Theme
+
+The files in `themes/` are generated. Change colors in `scripts/build.js`, then run:
+
+```bash
+npm run build
+npm run validate
+```
+
+`validate` fails if a generated file is out of date, a token falls below WCAG contrast (4.5:1 for code, 3:1 for comments), a selector can never match, or a key UI state is invisible.
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
