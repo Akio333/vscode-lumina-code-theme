@@ -1,8 +1,11 @@
 .vscode/**
 .git/**
+.github/**
+scripts/**
 .gitignore
 .vscodeignore
+**/.DS_Store
 vsc-extension-quickstart.md
-README.md
 node_modules/**
+package-lock.json
 *.vsix

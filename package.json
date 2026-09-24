@@ -17,7 +17,8 @@
     "Themes"
   ],
   "scripts": {
-    "validate": "node scripts/validate.js",
+    "build": "node scripts/build.js",
+    "validate": "node scripts/build.js --check && node scripts/validate.js",
     "package": "npm run validate && vsce package"
   },
   "devDependencies": {
@@ -37,7 +38,8 @@
         "path": "./themes/lumina-code-deep-color-theme.json"
       },
       {
-        "label": "Lumina Code (Lighter)",
+        "id": "Lumina Code (Lighter)",
+        "label": "Lumina Code (Dim)",
         "uiTheme": "vs-dark",
         "path": "./themes/lumina-code-lighter-color-theme.json"
       },
